@@ -5,10 +5,10 @@ FROM ubuntu:18.04
 RUN apt-get update && apt-get install -y apt-utils
 
 # Run the command to list all packages
-RUN apt-cache dumpavail > /bionic-packages.txt
+RUN apt-cache dumpavail > /ubuntu-bionic-packages.txt
 
 # Export the generated file outside the container
-VOLUME /bionic-packages.txt:/bionic-packages.txt
+VOLUME /ubuntu-bionic-packages.txt:/ubuntu-bionic-packages.txt
 
 # Specify the default command to run when the container starts
-CMD ["cat", "/bionic-packages.txt"]
+CMD ["cat", "/ubuntu-bionic-packages.txt"]

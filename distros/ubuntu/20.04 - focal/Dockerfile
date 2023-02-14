@@ -5,10 +5,10 @@ FROM ubuntu:20.04
 RUN apt-get update && apt-get install -y apt-utils
 
 # Run the command to list all packages
-RUN apt-cache dumpavail > /focal-packages.txt
+RUN apt-cache dumpavail > /ubuntu-focal-packages.txt
 
 # Export the generated file outside the container
-VOLUME /focal-packages.txt:/focal-packages.txt
+VOLUME /ubuntu-focal-packages.txt:/ubuntu-focal-packages.txt
 
 # Specify the default command to run when the container starts
-CMD ["cat", "/focal-packages.txt"]
+CMD ["cat", "/ubuntu-focal-packages.txt"]

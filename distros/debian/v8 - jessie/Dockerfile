@@ -5,10 +5,10 @@ FROM debian:jessie
 RUN apt-get update && apt-get install -y apt-utils
 
 # Run the command to list all packages
-RUN apt-cache dumpavail > /jessie-packages.txt
+RUN apt-cache dumpavail > /debian-jessie-packages.txt
 
 # Export the generated file outside the container
-VOLUME /jessie-packages.txt:/jessie-packages.txt
+VOLUME /debian-jessie-packages.txt:/debian-jessie-packages.txt
 
 # Specify the default command to run when the container starts
-CMD ["cat", "/jessie-packages.txt"]
+CMD ["cat", "/debian-jessie-packages.txt"]

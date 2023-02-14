@@ -5,10 +5,10 @@ FROM debian:buster
 RUN apt-get update && apt-get install -y apt-utils
 
 # Run the command to list all packages
-RUN apt-cache dumpavail > /buster-packages.txt
+RUN apt-cache dumpavail > /debian-buster-packages.txt
 
 # Export the generated file outside the container
-VOLUME /buster-packages.txt:/buster-packages.txt
+VOLUME /debian-buster-packages.txt:/debian-buster-packages.txt
 
 # Specify the default command to run when the container starts
-CMD ["cat", "/buster-packages.txt"]
+CMD ["cat", "/debian-buster-packages.txt"]
