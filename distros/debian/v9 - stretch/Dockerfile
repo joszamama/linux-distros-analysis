@@ -5,10 +5,10 @@ FROM debian:stretch
 RUN apt-get update && apt-get install -y apt-utils
 
 # Run the command to list all packages
-RUN apt-cache dumpavail > /stretch-packages.txt
+RUN apt-cache dumpavail > /debian-stretch-packages.txt
 
 # Export the generated file outside the container
-VOLUME /stretch-packages.txt:/stretch-packages.txt
+VOLUME /debian-stretch-packages.txt:/debian-stretch-packages.txt
 
 # Specify the default command to run when the container starts
-CMD ["cat", "/stretch-packages.txt"]
+CMD ["cat", "/debian-stretch-packages.txt"]

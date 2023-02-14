@@ -5,10 +5,10 @@ FROM ubuntu:22.10
 RUN apt-get update && apt-get install -y apt-utils
 
 # Run the command to list all packages
-RUN apt-cache dumpavail > /kinetic-packages.txt
+RUN apt-cache dumpavail > /ubuntu-kinetic-packages.txt
 
 # Export the generated file outside the container
-VOLUME /kinetic-packages.txt:/kinetic-packages.txt
+VOLUME /ubuntu-kinetic-packages.txt:/ubuntu-kinetic-packages.txt
 
 # Specify the default command to run when the container starts
-CMD ["cat", "/kinetic-packages.txt"]
+CMD ["cat", "/ubuntu-kinetic-packages.txt"]
