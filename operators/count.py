@@ -2,10 +2,16 @@ def count_packages(file):
     with open(file, "r", encoding="utf-8") as f:
         data = f.read()
         packages = data.count("Package: ")
+        essential = data.count("Essential: yes")
         required = data.count("Priority: required")
+        important = data.count("Priority: important")
+        standard = data.count("Priority: standard")
         optional = data.count("Priority: optional")
+        extra = data.count("Priority: extra")
+        undefined = packages - (required + important + standard + optional + extra)
         f.close()
-        print(f"{file} has {packages} packages, {required} required and {optional} optional")
+        print(f"{file} has {packages} packages, {required} required, where {essential} are essential. {important} important, {standard} standard, {optional} optional, {extra} extra and {undefined} undefined.")
+
 
 print("\n------------------")
 print("Ubuntu Packages")
