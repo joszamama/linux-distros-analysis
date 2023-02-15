@@ -1,14 +1,14 @@
-# Use Alpine Linux 3.15 as the base image
-FROM alpine:3.15
+# Use Alpine Linux 3.8 as the base image
+FROM alpine:3.8
 
 # Update the package repository and install the necessary packages
 RUN apk update && apk add --no-cache apk-tools
 
 # Run the command to list all packages
-RUN apk search --quiet --no-cache . > /alpine-3.15-packages.txt
+RUN apk search --quiet --no-cache . > /alpine-3.8-packages.txt
 
 # Export the generated file outside the container
-VOLUME /alpine-3.15-packages.txt:/alpine-3.15-packages.txt
+VOLUME /alpine-3.8-packages.txt:/alpine-3.8-packages.txt
 
 # Specify the default command to run when the container starts
-CMD ["cat", "/alpine-3.15-packages.txt"]
+CMD ["cat", "/alpine-3.8-packages.txt"]
