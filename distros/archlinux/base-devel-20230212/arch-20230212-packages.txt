@@ -1,0 +1,417 @@
+Name            : acl
+Version         : 2.3.1-3
+Description     : Access control list utilities, libraries and headers
+Name            : archlinux-keyring
+Version         : 20230130-1
+Description     : Arch Linux PGP keyring
+Name            : argon2
+Version         : 20190702-4
+Description     : A password-hashing function (reference C implementation)
+Name            : attr
+Version         : 2.5.1-2
+Description     : Extended attribute support library for ACL support
+Name            : audit
+Version         : 3.0.9-2
+Description     : Userspace components of the audit framework
+Name            : autoconf
+Version         : 2.71-1
+Description     : A GNU tool for automatically configuring source code
+Name            : automake
+Version         : 1.16.5-1
+Description     : A GNU tool for automatically creating Makefiles
+Name            : base
+Version         : 3-1
+Description     : Minimal package set to define a basic Arch Linux installation
+Name            : base-devel
+Version         : 1-1
+Description     : Basic tools to build Arch Linux packages
+Name            : bash
+Version         : 5.1.016-3
+Description     : The GNU Bourne Again shell
+Name            : binutils
+Version         : 2.40-4
+Description     : A set of programs to assemble and manipulate binary and object files
+Name            : bison
+Version         : 3.8.2-4
+Description     : The GNU general-purpose parser generator
+Name            : brotli
+Version         : 1.0.9-9
+Description     : Generic-purpose lossless compression algorithm
+Name            : bzip2
+Version         : 1.0.8-5
+Description     : A high-quality data compression program
+Name            : ca-certificates
+Version         : 20220905-1
+Description     : Common CA certificates (default providers)
+Name            : ca-certificates-mozilla
+Version         : 3.88.1-1
+Description     : Mozilla's set of trusted CA certificates
+Name            : ca-certificates-utils
+Version         : 20220905-1
+Description     : Common CA certificates (utilities)
+Name            : coreutils
+Version         : 9.1-3
+Description     : The basic file, shell and text manipulation utilities of the GNU operating system
+Name            : cryptsetup
+Version         : 2.6.1-1
+Description     : Userspace setup tool for transparent encryption of block devices using dm-crypt
+Name            : curl
+Version         : 7.87.0-3
+Description     : An URL retrieval utility and library
+Name            : db5.3
+Version         : 5.3.28-2
+Description     : The Berkeley DB embedded database system v5.3
+Name            : dbus
+Version         : 1.14.6-1
+Description     : Freedesktop.org message bus system
+Name            : debugedit
+Version         : 5.0-4
+Description     : Tool to mangle source locations in .debug files
+Name            : device-mapper
+Version         : 2.03.18-5
+Description     : Device mapper userspace library and tools
+Name            : diffutils
+Version         : 3.9-1
+Description     : Utility programs used for creating patch files
+Name            : e2fsprogs
+Version         : 1.47.0-1
+Description     : Ext2/3/4 filesystem utilities
+Name            : expat
+Version         : 2.5.0-1
+Description     : An XML parser library
+Name            : fakeroot
+Version         : 1.31-2
+Description     : Tool for simulating superuser privileges
+Name            : file
+Version         : 5.44-2
+Description     : File type identification utility
+Name            : filesystem
+Version         : 2023.01.31-1
+Description     : Base Arch Linux files
+Name            : findutils
+Version         : 4.9.0-2
+Description     : GNU utilities to locate files
+Name            : flex
+Version         : 2.6.4-4
+Description     : A tool for generating text-scanning programs
+Name            : gawk
+Version         : 5.2.1-1
+Description     : GNU version of awk
+Name            : gc
+Version         : 8.2.2-1
+Description     : A garbage collector for C and C++
+Name            : gcc
+Version         : 12.2.1-2
+Description     : The GNU Compiler Collection - C and C++ frontends
+Name            : gcc-libs
+Version         : 12.2.1-2
+Description     : Runtime libraries shipped by GCC
+Name            : gdbm
+Version         : 1.23-1
+Description     : GNU database library
+Name            : gettext
+Version         : 0.21.1-2
+Description     : GNU internationalization library
+Name            : glib2
+Version         : 2.74.5-1
+Description     : Low level core library
+Name            : glibc
+Version         : 2.37-2
+Description     : GNU C Library
+Name            : gmp
+Version         : 6.2.1-2
+Description     : A free library for arbitrary precision arithmetic
+Name            : gnupg
+Version         : 2.2.40-1
+Description     : Complete and free implementation of the OpenPGP standard
+Name            : gnutls
+Version         : 3.7.9-1
+Description     : A library which provides a secure layer over a reliable transport layer
+Name            : gpgme
+Version         : 1.18.0-2
+Description     : A C wrapper library for GnuPG
+Name            : grep
+Version         : 3.8-3
+Description     : A string search utility
+Name            : groff
+Version         : 1.22.4-7
+Description     : GNU troff text-formatting system
+Name            : guile
+Version         : 3.0.9-1
+Description     : Portable, embeddable Scheme implementation written in C
+Name            : gzip
+Version         : 1.12-2
+Description     : GNU compression utility
+Name            : hwdata
+Version         : 0.367-1
+Description     : hardware identification databases
+Name            : iana-etc
+Version         : 20230105-1
+Description     : /etc/protocols and /etc/services provided by IANA
+Name            : icu
+Version         : 72.1-2
+Description     : International Components for Unicode library
+Name            : iproute2
+Version         : 6.1.0-5
+Description     : IP Routing Utilities
+Name            : iptables
+Version         : 1:1.8.9-1
+Description     : Linux kernel packet control tool (using legacy interface)
+Name            : iputils
+Version         : 20221126-1
+Description     : Network monitoring tools, including ping
+Name            : jansson
+Version         : 2.14-2
+Description     : C library for encoding, decoding and manipulating JSON data
+Name            : json-c
+Version         : 0.16-1
+Description     : A JSON implementation in C
+Name            : kbd
+Version         : 2.5.1-1
+Description     : Keytable files and keyboard utilities
+Name            : keyutils
+Version         : 1.6.3-1
+Description     : Linux Key Management Utilities
+Name            : kmod
+Version         : 30-3
+Description     : Linux kernel module management tools and library
+Name            : krb5
+Version         : 1.20.1-1
+Description     : The Kerberos network authentication system
+Name            : less
+Version         : 1:608-2
+Description     : A terminal based program for viewing text files
+Name            : libarchive
+Version         : 3.6.2-2
+Description     : Multi-format archive and compression library
+Name            : libassuan
+Version         : 2.5.5-1
+Description     : IPC library used by some GnuPG related software
+Name            : libbpf
+Version         : 1.0.1-1
+Description     : Library for loading eBPF programs and reading and manipulating eBPF objects from user-space
+Name            : libcap
+Version         : 2.67-1
+Description     : POSIX 1003.1e capabilities
+Name            : libcap-ng
+Version         : 0.8.3-1
+Description     : A library for Linux that makes using posix capabilities easy
+Name            : libelf
+Version         : 0.188-3
+Description     : Handle ELF object files and DWARF debugging information (libraries)
+Name            : libevent
+Version         : 2.1.12-4
+Description     : Event notification library
+Name            : libffi
+Version         : 3.4.4-1
+Description     : Portable foreign function interface library
+Name            : libgcrypt
+Version         : 1.10.1-2
+Description     : General purpose cryptographic library based on the code from GnuPG
+Name            : libgpg-error
+Version         : 1.46-2
+Description     : Support library for libgcrypt
+Name            : libidn2
+Version         : 2.3.4-3
+Description     : Free software implementation of IDNA2008, Punycode and TR46
+Name            : libisl
+Version         : 0.25-1
+Description     : Library for manipulating sets and relations of integer points bounded by linear constraints
+Name            : libksba
+Version         : 1.6.3-1
+Description     : Library for working with X.509 certificates, CMS data and related objects
+Name            : libldap
+Version         : 2.6.3-2
+Description     : Lightweight Directory Access Protocol (LDAP) client libraries
+Name            : libmnl
+Version         : 1.0.5-1
+Description     : Minimalistic user-space library oriented to Netlink developers.
+Name            : libmpc
+Version         : 1.3.1-1
+Description     : Library for the arithmetic of complex numbers with arbitrarily high precision
+Name            : libnetfilter_conntrack
+Version         : 1.0.9-1
+Description     : Library providing an API to the in-kernel connection tracking state table
+Name            : libnfnetlink
+Version         : 1.0.2-1
+Description     : Low-level library for netfilter related kernel/userspace communication
+Name            : libnftnl
+Version         : 1.2.4-1
+Description     : Netfilter library providing interface to the nf_tables subsystem
+Name            : libnghttp2
+Version         : 1.52.0-1
+Description     : Framing layer of HTTP/2 is implemented as a reusable C library
+Name            : libnl
+Version         : 3.7.0-3
+Description     : Library for applications dealing with netlink sockets
+Name            : libp11-kit
+Version         : 0.24.1-1
+Description     : Loads and enumerates PKCS#11 modules (library)
+Name            : libpcap
+Version         : 1.10.3-1
+Description     : A system-independent interface for user-level packet capture
+Name            : libpsl
+Version         : 0.21.2-1
+Description     : Public Suffix List library
+Name            : libsasl
+Version         : 2.1.28-4
+Description     : Cyrus Simple Authentication Service Layer (SASL) library
+Name            : libseccomp
+Version         : 2.5.4-1
+Description     : Enhanced seccomp library
+Name            : libsecret
+Version         : 0.20.5-2
+Description     : Library for storing and retrieving passwords and other secrets
+Name            : libssh2
+Version         : 1.10.0-3
+Description     : A library implementing the SSH2 protocol as defined by Internet Drafts
+Name            : libsysprof-capture
+Version         : 3.46.0-4
+Description     : Kernel based performance profiler - capture library
+Name            : libtasn1
+Version         : 4.19.0-1
+Description     : The ASN.1 library used in GNUTLS
+Name            : libtirpc
+Version         : 1.3.3-2
+Description     : Transport Independent RPC library (SunRPC replacement)
+Name            : libtool
+Version         : 2.4.7+4+g1ec8fa28-2
+Description     : A generic library support script
+Name            : libunistring
+Version         : 1.1-2
+Description     : Library for manipulating Unicode strings and C strings
+Name            : libverto
+Version         : 0.3.2-4
+Description     : Main event loop abstraction library
+Name            : libxcrypt
+Version         : 4.4.33-1
+Description     : Modern library for one-way hashing of passwords
+Name            : libxml2
+Version         : 2.10.3-2
+Description     : XML C parser and toolkit
+Name            : licenses
+Version         : 20220125-1
+Description     : A set of common license files
+Name            : linux-api-headers
+Version         : 6.1.9-1
+Description     : Kernel headers sanitized for use in userspace
+Name            : lz4
+Version         : 1:1.9.4-1
+Description     : Extremely fast compression algorithm
+Name            : m4
+Version         : 1.4.19-2
+Description     : The GNU macro processor
+Name            : make
+Version         : 4.4-1
+Description     : GNU make utility to maintain groups of programs
+Name            : mpfr
+Version         : 4.2.0-3
+Description     : Multiple-precision floating-point library
+Name            : ncurses
+Version         : 6.4-1
+Description     : System V Release 4.0 curses emulation library
+Name            : nettle
+Version         : 3.8.1-1
+Description     : A low-level cryptographic library
+Name            : npth
+Version         : 1.6-3
+Description     : The new GNU portable threads library
+Name            : openssl
+Version         : 3.0.8-1
+Description     : The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+Name            : p11-kit
+Version         : 0.24.1-1
+Description     : Loads and enumerates PKCS#11 modules
+Name            : pacman
+Version         : 6.0.2-5
+Description     : A library-based package manager with dependency support
+Name            : pacman-mirrorlist
+Version         : 20221204-1
+Description     : Arch Linux mirror list for use by pacman
+Name            : pam
+Version         : 1.5.2-1
+Description     : PAM (Pluggable Authentication Modules) library
+Name            : pambase
+Version         : 20221020-1
+Description     : Base PAM configuration for services
+Name            : patch
+Version         : 2.7.6-9
+Description     : A utility to apply patch files to original sources
+Name            : pciutils
+Version         : 3.9.0-2
+Description     : PCI bus configuration space access library and tools
+Name            : pcre2
+Version         : 10.42-2
+Description     : A library that implements Perl 5-style regular expressions. 2nd version
+Name            : perl
+Version         : 5.36.0-3
+Description     : A highly capable, feature-rich programming language
+Name            : pinentry
+Version         : 1.2.1-1
+Description     : Collection of simple PIN or passphrase entry dialogs which utilize the Assuan protocol
+Name            : pkgconf
+Version         : 1.8.0-1
+Description     : Package compiler and linker metadata toolkit
+Name            : popt
+Version         : 1.19-1
+Description     : A commandline option parser
+Name            : procps-ng
+Version         : 3.3.17-1
+Description     : Utilities for monitoring your system and its processes
+Name            : psmisc
+Version         : 23.6-1
+Description     : Miscellaneous procfs tools
+Name            : readline
+Version         : 8.2.001-2
+Description     : GNU readline library
+Name            : sed
+Version         : 4.9-2
+Description     : GNU stream editor
+Name            : shadow
+Version         : 4.13-2
+Description     : Password and account management tool suite with support for shadow files and PAM
+Name            : sqlite
+Version         : 3.40.1-1
+Description     : A C library that implements an SQL database engine
+Name            : sudo
+Version         : 1.9.12.p2-2
+Description     : Give certain users the ability to run some commands as root
+Name            : systemd
+Version         : 252.5-1
+Description     : system and service manager
+Name            : systemd-libs
+Version         : 252.5-1
+Description     : systemd client libraries
+Name            : systemd-sysvcompat
+Version         : 252.5-1
+Description     : sysvinit compat for systemd
+Name            : tar
+Version         : 1.34-1
+Description     : Utility used to store, backup, and transport files
+Name            : texinfo
+Version         : 7.0.2-2
+Description     : GNU documentation system for on-line information and printed output
+Name            : tpm2-tss
+Version         : 3.2.0-3
+Description     : Implementation of the TCG Trusted Platform Module 2.0 Software Stack (TSS2)
+Name            : tzdata
+Version         : 2022g-2
+Description     : Sources for time zone and daylight saving time data
+Name            : util-linux
+Version         : 2.38.1-1
+Description     : Miscellaneous system utilities for Linux
+Name            : util-linux-libs
+Version         : 2.38.1-1
+Description     : util-linux runtime libraries
+Name            : which
+Version         : 2.21-6
+Description     : A utility to show the full path of commands
+Name            : xz
+Version         : 5.4.1-1
+Description     : Library and command line tools for XZ and LZMA compressed files
+Name            : zlib
+Version         : 1:1.2.13-2
+Description     : Compression library implementing the deflate compression method found in gzip and PKZIP
+Name            : zstd
+Version         : 1.5.2-8
+Description     : Zstandard - Fast real-time compression algorithm
