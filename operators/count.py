@@ -2,7 +2,7 @@ def count_packages_apt(file):
     with open(file, "r", encoding="utf-8") as f:
         data = f.read()
         packages = data.count("Package: ")
-        essential = data.count("Essential: yes")
+        essential = data.count("Build-Essential: yes")
         required = data.count("Priority: required")
         important = data.count("Priority: important")
         standard = data.count("Priority: standard")
@@ -24,11 +24,14 @@ def count_packages_dnf(file):
 
 print("\n------------------")
 print("Ubuntu Packages")
-count_packages_apt("distros/ubuntu/18.04 - bionic/ubuntu-bionic-packages.txt")
-count_packages_apt("distros/ubuntu/20.04 - focal/ubuntu-focal-packages.txt")
-count_packages_apt("distros/ubuntu/22.04 - jammy/ubuntu-jammy-packages.txt")
 count_packages_apt(
-    "distros/ubuntu/22.10 - kinetic/ubuntu-kinetic-packages.txt")
+    "distros/ubuntu/18.04 - bionic/output/ubuntu-bionic-packages.txt")
+count_packages_apt(
+    "distros/ubuntu/20.04 - focal/output/ubuntu-focal-packages.txt")
+count_packages_apt(
+    "distros/ubuntu/22.04 - jammy/output/ubuntu-jammy-packages.txt")
+count_packages_apt(
+    "distros/ubuntu/22.10 - kinetic/output/ubuntu-kinetic-packages.txt")
 
 print("\n------------------")
 print("Fedora Packages")
