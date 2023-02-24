@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+.vscode
+vscode
 # ubuntu.csv in ./distros/ubuntu
 ubuntu-packages.csv
 # Distribution / packaging
