@@ -34,17 +34,3 @@ count_packages_apt(
     "distros/ubuntu/22.10 - kinetic/output/ubuntu-kinetic-packages.txt")
 
 print("\n------------------")
-print("Fedora Packages")
-count_packages_dnf("distros/fedora/36/fedora-36-packages.txt")
-count_packages_dnf("distros/fedora/37/fedora-37-packages.txt")
-count_packages_dnf("distros/fedora/38/fedora-38-packages.txt")
-
-print("\n------------------")
-print("Debian Packages")
-count_packages_apt("distros/debian/v8 - jessie/debian-jessie-packages.txt")
-count_packages_apt("distros/debian/v9 - stretch/debian-stretch-packages.txt")
-count_packages_apt("distros/debian/v10 - buster/debian-buster-packages.txt")
-count_packages_apt(
-    "distros/debian/v11 - bullseye/debian-bullseye-packages.txt")
-
-print("\n------------------")
