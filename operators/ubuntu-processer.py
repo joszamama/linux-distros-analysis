@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def preprocessingDF(df):
+def process_df(df):
 
     # Eliminar las columnas sin información aparente (Important, Breaks, Enhances)
     df = df.drop(['Important', 'Breaks', 'Enhances'], axis=1)
@@ -26,7 +26,7 @@ def preprocessingDF(df):
 def main():
     # Leer archivo CSV
     df = pd.read_csv(f"./distros/ubuntu/ubuntu-packages.csv")
-    df = preprocessingDF(df)
+    df = process_df(df)
 
     # # Guardar archivo CSV preprocesado
     df.to_csv(f"./operators/datawarehouse/processed-ubuntu-packages.csv", mode='w', index=False, header=True, chunksize=1000)
