@@ -17,14 +17,16 @@ def preprocessingDF(df):
     # Filtra las filas que tienen menos valores no nulos que el umbral definido
     df = df[row_counts >= threshold]
 
+    return df
+
 
 def main():
     # Leer archivo CSV
     df = pd.read_csv(f"./distros/ubuntu/ubuntu-packages.csv")
-    preprocessingDF(df)
+    df = preprocessingDF(df)
 
     # # Guardar archivo CSV preprocesado
-    # df.to_csv(f"./distros/ubuntu/ubuntu-packages_preprocesado.csv", mode='w', index=False, header=True, chunksize=1000)
+    df.to_csv(f"./operators/datawarehouse/ubuntu-packages_preprocesado.csv", mode='w', index=False, header=True, chunksize=1000)
 
 
 if __name__ == "__main__":
