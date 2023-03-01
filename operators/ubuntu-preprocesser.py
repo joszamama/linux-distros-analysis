@@ -26,7 +26,7 @@ def main():
     df = preprocessingDF(df)
 
     # # Guardar archivo CSV preprocesado
-    df.to_csv(f"./operators/datawarehouse/ubuntu-packages_preprocesado.csv", mode='w', index=False, header=True, chunksize=1000)
+    df.to_csv(f"./operators/datawarehouse/processed-ubuntu-packages.csv", mode='w', index=False, header=True, chunksize=1000)
 
 
 if __name__ == "__main__":
