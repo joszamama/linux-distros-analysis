@@ -9,6 +9,9 @@ def preprocessingDF(df):
     # Eliminar filas duplicadas
     df = df.drop_duplicates()
 
+    # Cambiar Null por NaN
+    df = df.replace("Null", np.nan)
+
     # Nos quedamos sólo con las filas que tengan algo de información usable, para ello, primero, 
     # calculamos la cantidad de valores no nulos por fila
     row_counts = df.count(axis=1)
