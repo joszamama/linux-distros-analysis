@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 def process_df(df):
 
     # Eliminar las columnas sin información aparente (Important, Breaks, Enhances)
@@ -12,7 +13,7 @@ def process_df(df):
     # Cambiar Null por NaN
     df = df.replace("Null", np.nan)
 
-    # Nos quedamos sólo con las filas que tengan algo de información usable, para ello, primero, 
+    # Nos quedamos sólo con las filas que tengan algo de información usable, para ello, primero,
     # calculamos la cantidad de valores no nulos por fila
     row_counts = df.count(axis=1)
     # Define el umbral de cantidad mínima de valores no nulos que debe tener cada fila
@@ -29,9 +30,9 @@ def main():
     df = process_df(df)
 
     # # Guardar archivo CSV preprocesado
-    df.to_csv(f"./operators/datawarehouse/processed-ubuntu-packages.csv", mode='w', index=False, header=True, chunksize=1000)
+    df.to_csv(f"./operators/datawarehouse/processed-ubuntu-packages.csv",
+              mode='w', index=False, header=True, chunksize=1000)
 
 
 if __name__ == "__main__":
     main()
-
